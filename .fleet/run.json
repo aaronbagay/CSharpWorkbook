@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "dotnet-launch-settings",
+            "name": "Dotnet-launch-settings configuration",
+            "projectPath": "C:/Users/virth/projects/CSharpWorkbook/CSharpWorkbook.sln",
+            "profileName": "CSharpWorkbook",
+        },
+        
+    ]
+}
