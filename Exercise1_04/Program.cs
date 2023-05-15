@@ -3,9 +3,9 @@
 using System;
 
 Console.WriteLine("Type a value for a: ");
-var a = int.Parse(Console.ReadLine() );
+var a = int.Parse(Console.ReadLine());
 Console.WriteLine("Now type a value for b: ");
-var b = int.Parse(Console.ReadLine() );
+var b = int.Parse(Console.ReadLine());
 
 Console.WriteLine($"The vall for a is { a } and b is { b }");
 Console.WriteLine($"Sum : { a + b }");
