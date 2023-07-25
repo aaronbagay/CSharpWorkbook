@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.IO.Enumeration;
-using System.Linq;
-
 namespace Chapter04.Examples
 {
     class LinqOrderByExamples
@@ -11,7 +6,7 @@ namespace Chapter04.Examples
         {
             var fileInfos = Directory.EnumerateFiles(Path.GetTempPath(),
             ".tmp").Select(filename => new FileInfo(filename)).ToList();
-            Console.WriteLine("Earlist Files");
+            Console.WriteLine("Earliest Files");
             foreach (var fileInfo in fileInfos.OrderBy(fi => fi.CreationTime))
             {
                 Console.WriteLine($"{fileInfo.CreationTime:dd MMM yy} : {fileInfo.Name}");

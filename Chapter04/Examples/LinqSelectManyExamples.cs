@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
-
 namespace Chapter04.Examples
 {
     record City (String Name, IEnumerable<string> Stations);

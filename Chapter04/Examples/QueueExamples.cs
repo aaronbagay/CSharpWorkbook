@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 namespace Chapter04.Examples
 {
     class QueueExamples
@@ -29,7 +26,7 @@ namespace Chapter04.Examples
                     Console.WriteLine($"Sorry {nextOrder.Name}, cannot fulfil {nextOrder.TicketsRequested} tickets(s).");
                 }
             }
-            Console.WriteLine($"Finihed. Available = {ticketsAvailable}");
+            Console.WriteLine($"Finished. Available = {ticketsAvailable}");
             Console.ReadLine();
         }
     }

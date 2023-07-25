@@ -1,9 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Security.Cryptography.X509Certificates;
-
 namespace Chapter04.Examples
 {
     record Order(string Product, int Quantity, double Price);

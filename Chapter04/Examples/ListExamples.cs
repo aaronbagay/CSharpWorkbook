@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Chapter04.Examples
+﻿namespace Chapter04.Examples
 {
     class ListExamples
     {

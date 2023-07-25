@@ -13,7 +13,7 @@ namespace Chapter04.Exercises.Exercise02
             {
                 var key = word;
 
-                if (char.isPunctuation(key[key.Length - 1]))
+                if (char.IsPunctuation(key[key.Length - 1]))
                 {
                     key = key.Remove(key.Length - 1);
                 }
@@ -22,7 +22,7 @@ namespace Chapter04.Exercises.Exercise02
                 {
                     wordCounts[key] = count + 1;
                 } else {
-                    wordCounts.Add(key, 1)
+                    wordCounts.Add(key, 1);
                 }
             }
             return wordCounts;
