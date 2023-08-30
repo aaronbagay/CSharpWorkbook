@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Exercises\" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Exercises\Exercise5_02\obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Exercises\Exercise5_02\obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Exercises\Exercise5_02\obj\**" />
+  </ItemGroup>
+
+</Project>
