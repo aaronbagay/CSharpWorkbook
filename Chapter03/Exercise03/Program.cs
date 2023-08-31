@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Chapter03.Exercise03
+namespace Exercise03
 {
     public class CashMachine
     {

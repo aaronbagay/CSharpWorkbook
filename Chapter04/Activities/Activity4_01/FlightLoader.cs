@@ -1,7 +1,7 @@
 ﻿
 using System.Net;
 
-namespace Chapter04.Activities.Activity4_01
+namespace Activity4_01
 {
     internal interface IFlightLoader
     {

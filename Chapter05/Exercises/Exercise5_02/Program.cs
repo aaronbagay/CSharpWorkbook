@@ -1,8 +1,4 @@
-﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
-
-namespace Chapter05.Exercises.Exercise5_02
+﻿namespace Exercise5_02
 {
     class Program
     {

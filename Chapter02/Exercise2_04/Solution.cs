@@ -1,4 +1,4 @@
-﻿using Exercise2_04;
+﻿namespace Exercise2_04;
 
 public static class Solution
 {

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Chapter04.Activities.Activity4_01
+﻿namespace Activity4_01
 {
     internal enum FilterCriteriaType
     {

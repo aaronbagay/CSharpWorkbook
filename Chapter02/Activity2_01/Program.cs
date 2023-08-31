@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System;
+
 using static System.Math;
+
+namespace Activity2_01;
+
 public struct Circle
 {
     public double Radius { get; }

@@ -1,7 +1,6 @@
 ﻿using System.Globalization;
 
-
-namespace Chapter05.Exercises.Exercises5_03
+namespace Chapter05.Exercises.Exercise5_03
 {
     public static class Logger
     {
@@ -101,14 +100,7 @@ namespace Chapter05.Exercises.Exercises5_03
                     var hasCompleted = averageTask.Wait(TimeSpan.FromSeconds(maxDelay));
                     var average = averageTask.Result;
 
-                    if (hasCompleted)
-                    {
-                        Logger.Log($"Average={average:N0}");
-                    }
-                    else
-                    {
-                        Logger.Log("Timeout!");
-                    }
+                    Logger.Log(hasCompleted ? $"Average={average:N0}" : "Timeout!");
                 }
 
             } while (input != string.Empty);

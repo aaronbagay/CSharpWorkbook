@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-
-namespace Chapter04.Exercises.Exercise02
+namespace Exercise02
 {
     static class WordCounter
     {

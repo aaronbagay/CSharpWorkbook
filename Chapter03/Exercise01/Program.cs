@@ -1,5 +1,6 @@
 ﻿using System;
-namespace Chapter03.Exercise01
+
+namespace Exercise01
 {
 
     public delegate bool DateValidationHandler(DateTime dateTime);

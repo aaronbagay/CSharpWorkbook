@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-
-namespace Chapter03.Exercise02
+namespace Exercise02
 {
     public record Car
     {

@@ -1,4 +1,4 @@
-namespace Chapter04.Examples
+namespace Examples
 {
     record TravelLog (string Name, int Distance, int Duration)
     {

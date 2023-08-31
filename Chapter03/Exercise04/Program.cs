@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Chapter03.Exercise04
+namespace Exercise04
 {
     public static class Program
     {

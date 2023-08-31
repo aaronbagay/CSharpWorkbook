@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq;
-
-namespace Chapter04.Exercises.Exercise03
+﻿namespace Exercise03
 {
     class Program
     {

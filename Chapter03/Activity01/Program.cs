@@ -3,7 +3,7 @@ using System.IO;
 using System.Net;
 using System.Threading;
 
-namespace Chapter03.Activity01
+namespace Activity01
 {
     public class DownloadProgressChangedEventArgs  
     {

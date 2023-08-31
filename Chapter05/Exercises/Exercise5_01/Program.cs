@@ -1,10 +1,6 @@
-﻿using System;
-using System.Globalization;
-using System.Runtime.InteropServices.JavaScript;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using System.Globalization;
 
-namespace Chapter05.Exercises.Exercise5_01
+namespace Exercise5_01
 {
     class Program
     {

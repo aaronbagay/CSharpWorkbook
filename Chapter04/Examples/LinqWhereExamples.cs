@@ -1,4 +1,4 @@
-namespace Chapter04.Examples
+namespace Examples
 {
     record Order(string Product, int Quantity, double Price);
 

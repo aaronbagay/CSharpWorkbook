@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Chapter03.Exercise06
+namespace Exercise06
 {
     public class WordUtilities
     {

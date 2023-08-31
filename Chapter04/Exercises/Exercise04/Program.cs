@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net;
+﻿using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Chapter04.Exercises.Exercise04
+namespace Exercise04
 {
     class TextCounter
     {

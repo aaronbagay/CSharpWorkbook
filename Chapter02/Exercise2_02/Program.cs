@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+namespace Exercise2_02;
 
 public class Rectangle
 {
@@ -55,19 +56,19 @@ public static class Solution
 
         // circular
         string compare4 = Solve(new []
-            {
-                new Rectangle(5.0, 2.1),
-                    new Rectangle(3, 3),
-            }, new[]
-            {
-                new Circle(1),
-                    new Circle(10),
-            });
+        {
+            new Rectangle(5.0, 2.1),
+            new Rectangle(3, 3)
+        }, new[]
+        {
+            new Circle(1),
+            new Circle(10)
+        });
 
         Console.WriteLine($"compare1 is {compare1}, " +
-            $"compare2 is {compare2}, " +
-            $"compare3 is {compare3}, " +
-            $"compare4 is {compare4}.");
+                          $"compare2 is {compare2}, " +
+                          $"compare3 is {compare3}, " +
+                          $"compare4 is {compare4}.");
     }
 
     public static string Solve(Rectangle[] rectangularSection, Circle[] circularSection)
@@ -120,4 +121,3 @@ public static class Solution
         }
     }
 }
-

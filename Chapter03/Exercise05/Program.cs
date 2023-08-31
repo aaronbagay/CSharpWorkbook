@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Chapter03.Exercise05
+namespace Exercise05
 {
     public class AlarmClock
     {
