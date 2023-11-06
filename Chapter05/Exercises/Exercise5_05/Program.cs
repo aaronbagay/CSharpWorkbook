@@ -1,3 +1,34 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace Chapter05.Exercises.Exercise05
+{
+    public enum RegionName
+    {
+        North,
+        East,
+        South,
+        West
+    };
 
-Console.WriteLine("Hello, World!");
+    public class Customer
+    {
+        private readonly RegionName _protectedRegion;
+
+        public Customer(string name, RegionName region, RegionName protectedRegion)
+        {
+            Name = name;
+            
+        }
+
+        public class CustomerOperations
+        {
+            public const RegionName ProtectedRegion = RegionName.West;
+
+            public async Task<IEnumerable<Customer>> FetchTopCustomers()
+            {
+                await Task.Delay(TimeSpan.FromSeconds(2));
+                
+                Logger.Log
+            }
+        }
+        
+    }
+}
